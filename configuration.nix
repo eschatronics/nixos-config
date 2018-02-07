@@ -167,6 +167,8 @@ ATTR{idVendor}=="1d50", ATTR{idProduct}=="6089", SYMLINK+="hackrf-one-%k", MODE=
     group = "users";
     createHome = true;
   };
+ 
+  # An empty user account, used only for testing purposes. 
   users.extraUsers.virgin = {
     isNormalUser = true;
     uid = 9999;
