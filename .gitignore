@@ -1,1 +1,3 @@
 *.passwd
+*.bak
+hardware-configuration.nix
